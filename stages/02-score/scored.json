@@ -1,0 +1,92 @@
+{
+  "people": [
+    {
+      "id": "P1",
+      "name_or_role": "Ops analyst, sample",
+      "rule_version": "crux-enablement-v1",
+      "points": 1,
+      "tier": "Floor",
+      "reasons": [
+        "uses AI daily (+1)"
+      ]
+    },
+    {
+      "id": "P2",
+      "name_or_role": "Deal associate, sample",
+      "rule_version": "crux-enablement-v1",
+      "points": 3,
+      "tier": "Building",
+      "reasons": [
+        "uses AI daily (+1)",
+        "has shipped a tool with AI help (+2)"
+      ]
+    },
+    {
+      "id": "P3",
+      "name_or_role": "Senior engineer, sample",
+      "rule_version": "crux-enablement-v1",
+      "points": 8,
+      "tier": "Ceiling",
+      "reasons": [
+        "uses AI daily (+1)",
+        "has shipped a tool with AI help (+2)",
+        "someone else actually uses it (+3)",
+        "has coached a colleague (+2)"
+      ]
+    },
+    {
+      "id": "P4",
+      "name_or_role": "New hire, sample",
+      "rule_version": "crux-enablement-v1",
+      "points": 0,
+      "tier": "Floor",
+      "reasons": []
+    }
+  ],
+  "workflows": [
+    {
+      "id": "W1",
+      "name": "Internal meeting notes summarizer, sample",
+      "rule_version": "crux-enablement-v1",
+      "status": "CLEARED",
+      "reasons": [
+        "no compliance triggers present"
+      ],
+      "uses_third_party_ai_api": true
+    },
+    {
+      "id": "W2",
+      "name": "Draft investor update email, sample",
+      "rule_version": "crux-enablement-v1",
+      "status": "NEEDS_REVIEW",
+      "reasons": [
+        "touches investor communications",
+        "touches trade or deal data",
+        "externally facing"
+      ],
+      "uses_third_party_ai_api": true
+    },
+    {
+      "id": "W3",
+      "name": "Internal onboarding FAQ bot, sample",
+      "rule_version": "crux-enablement-v1",
+      "status": "CLEARED",
+      "reasons": [
+        "no compliance triggers present"
+      ],
+      "uses_third_party_ai_api": true
+    },
+    {
+      "id": "W4",
+      "name": "Customer-facing deal status chatbot, sample",
+      "rule_version": "crux-enablement-v1",
+      "status": "NEEDS_REVIEW",
+      "reasons": [
+        "touches customer PII",
+        "touches trade or deal data",
+        "externally facing"
+      ],
+      "uses_third_party_ai_api": true
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "people": [
+    {
+      "id": "P1",
+      "name_or_role": "Ops analyst, sample",
+      "uses_ai_daily": true,
+      "has_shipped_tool": false,
+      "tool_has_other_users": false,
+      "has_coached_someone": false
+    },
+    {
+      "id": "P2",
+      "name_or_role": "Deal associate, sample",
+      "uses_ai_daily": true,
+      "has_shipped_tool": true,
+      "tool_has_other_users": false,
+      "has_coached_someone": false
+    },
+    {
+      "id": "P3",
+      "name_or_role": "Senior engineer, sample",
+      "uses_ai_daily": true,
+      "has_shipped_tool": true,
+      "tool_has_other_users": true,
+      "has_coached_someone": true
+    },
+    {
+      "id": "P4",
+      "name_or_role": "New hire, sample",
+      "uses_ai_daily": false,
+      "has_shipped_tool": false,
+      "tool_has_other_users": false,
+      "has_coached_someone": false
+    }
+  ],
+  "workflows": [
+    {
+      "id": "W1",
+      "name": "Internal meeting notes summarizer, sample",
+      "touches_customer_pii": false,
+      "touches_investor_communications": false,
+      "touches_trade_or_deal_data": false,
+      "is_externally_facing": false,
+      "uses_third_party_ai_api": true
+    },
+    {
+      "id": "W2",
+      "name": "Draft investor update email, sample",
+      "touches_customer_pii": false,
+      "touches_investor_communications": true,
+      "touches_trade_or_deal_data": true,
+      "is_externally_facing": true,
+      "uses_third_party_ai_api": true
+    },
+    {
+      "id": "W3",
+      "name": "Internal onboarding FAQ bot, sample",
+      "touches_customer_pii": false,
+      "touches_investor_communications": false,
+      "touches_trade_or_deal_data": false,
+      "is_externally_facing": false,
+      "uses_third_party_ai_api": true
+    },
+    {
+      "id": "W4",
+      "name": "Customer-facing deal status chatbot, sample",
+      "touches_customer_pii": true,
+      "touches_investor_communications": false,
+      "touches_trade_or_deal_data": true,
+      "is_externally_facing": true,
+      "uses_third_party_ai_api": true
+    }
+  ]
+}
